@@ -4,4 +4,5 @@
   (lib (name "1825027-2")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/1825027-2/footprints.pretty")(options "")(descr ""))
   (lib (name "Package_TO_SOT_SMD")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/Package_TO_SOT_SMD.pretty")(options "")(descr ""))
   (lib (name "XZMDKVG55W-8")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/XZMDKVG55W-8")(options "")(descr ""))
+  (lib (name "SOT23")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SSM3J338R_LF/footprints.pretty")(options "")(descr ""))
 )

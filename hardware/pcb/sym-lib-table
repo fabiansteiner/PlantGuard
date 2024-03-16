@@ -155,4 +155,5 @@
   (lib (name "dk_Thyristors-SCRs")(type "Legacy")(uri "${KIPRJMOD}/specific_parts/digikey-kicad-library-master/digikey-symbols/dk_Thyristors-SCRs.lib")(options "")(descr ""))
   (lib (name "1825027-2")(type "Legacy")(uri "${KIPRJMOD}/specific_parts/1825027-2/1825027-2.lib")(options "")(descr ""))
   (lib (name "XZMDKVG55W-8")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/XZMDKVG55W-8/XZMDKVG55W-8.kicad_sym")(options "")(descr ""))
+  (lib (name "SSM3J338R_LF")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SSM3J338R_LF/2024-03-16_09-59-16.kicad_sym")(options "")(descr ""))
 )
