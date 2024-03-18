@@ -446,7 +446,7 @@
       "idf": "",
       "netlist": "PG_attiny404.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PG_attiny404.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
