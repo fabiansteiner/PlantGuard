@@ -5,4 +5,8 @@
   (lib (name "Package_TO_SOT_SMD")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/Package_TO_SOT_SMD.pretty")(options "")(descr ""))
   (lib (name "XZMDKVG55W-8")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/XZMDKVG55W-8")(options "")(descr ""))
   (lib (name "SOT23")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SSM3J338R_LF/footprints.pretty")(options "")(descr ""))
+  (lib (name "PTS526_SK15_SMTR2_LFS")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/PTS526_SK15_SMTR2_LFS/footprints.pretty")(options "")(descr ""))
+  (lib (name "0ZCG0075FF2C")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/0ZCG0075FF2C/footprints.pretty")(options "")(descr ""))
+  (lib (name "SMF13A")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SMF13A/footprints.pretty")(options "")(descr ""))
+  (lib (name "ESDA041-1JY")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ESDA041-1JY/footprints.pretty")(options "")(descr ""))
 )

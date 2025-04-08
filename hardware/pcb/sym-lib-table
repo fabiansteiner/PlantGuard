@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "PG_attiny404-rescue")(type "Legacy")(uri "${KIPRJMOD}/PG_attiny404-rescue.lib")(options "")(descr ""))
   (lib (name "dk_Thyristors-TRIACs")(type "Legacy")(uri "${KIPRJMOD}/specific_parts/digikey-kicad-library-master/digikey-symbols/dk_Thyristors-TRIACs.lib")(options "")(descr ""))
   (lib (name "dk_Toggle-Switches")(type "Legacy")(uri "${KIPRJMOD}/specific_parts/digikey-kicad-library-master/digikey-symbols/dk_Toggle-Switches.lib")(options "")(descr ""))
   (lib (name "dk_Transistors-Bipolar-BJT-Arrays")(type "Legacy")(uri "${KIPRJMOD}/specific_parts/digikey-kicad-library-master/digikey-symbols/dk_Transistors-Bipolar-BJT-Arrays.lib")(options "")(descr ""))
@@ -156,4 +155,8 @@
   (lib (name "1825027-2")(type "Legacy")(uri "${KIPRJMOD}/specific_parts/1825027-2/1825027-2.lib")(options "")(descr ""))
   (lib (name "XZMDKVG55W-8")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/XZMDKVG55W-8/XZMDKVG55W-8.kicad_sym")(options "")(descr ""))
   (lib (name "SSM3J338R_LF")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SSM3J338R_LF/2024-03-16_09-59-16.kicad_sym")(options "")(descr ""))
+  (lib (name "PTS526_SK15_SMTR2_LFS")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/PTS526_SK15_SMTR2_LFS/PTS526SK15SMTR2LFS.kicad_sym")(options "")(descr ""))
+  (lib (name "PG_attiny804")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/PG_attiny804.kicad_sym")(options "")(descr ""))
+  (lib (name "SMF13A")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SMF13A/SMF13A.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA041-1JY")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ESDA041-1JY/2025-04-06_18-56-20.kicad_sym")(options "")(descr ""))
 )
