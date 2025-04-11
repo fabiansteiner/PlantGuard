@@ -4259,14 +4259,14 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+	(footprint "ZXCT1009F:SOT-23_Handsoldering_ZXCT1009F"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00006334f173")
 		(at 125.7116 109.9302 -90)
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "U4"
-			(at -0.0202 -2.8084 0)
+			(at 0 -2.5 270)
 			(layer "F.SilkS")
 			(uuid "9380202e-e5d1-4dd1-822b-03bb1c7f8c9b")
 			(effects
@@ -4277,7 +4277,7 @@
 			)
 		)
 		(property "Value" "ZXCT1009F"
-			(at -0.2202 6.1916 0)
+			(at 0 2.5 270)
 			(layer "F.Fab")
 			(uuid "4bbf270a-333a-447d-acf6-cd2e93621540")
 			(effects
@@ -4316,7 +4316,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a76eff4-7b6f-48e1-ab1f-477e76ad9f07")
+			(uuid "236c901e-4fff-48fd-ab9e-7abf21c45b73")
 			(effects
 				(font
 					(size 1 1)
@@ -4337,7 +4337,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "407a95a9-1c63-4102-a95e-76b1188c5b0a")
+			(uuid "48c90550-b908-489d-9365-d54a270e481f")
 		)
 		(fp_line
 			(start 0.76 1.58)
@@ -4347,7 +4347,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "46964553-0208-4942-b3ba-cda308ceb5ce")
+			(uuid "af24a42d-5b61-4964-84b5-aca41599b82d")
 		)
 		(fp_line
 			(start 0.76 -1.58)
@@ -4357,7 +4357,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "35d82573-4d6c-447a-afdc-29f65188861a")
+			(uuid "b05a21d8-9e01-4d96-99ea-79e3aa9efc51")
 		)
 		(fp_line
 			(start 0.76 -1.58)
@@ -4367,7 +4367,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6ceeea62-9faa-474b-83e5-4d1f141b31d7")
+			(uuid "f0865e23-867d-4eb7-9a7c-db6f300d1bd0")
 		)
 		(fp_line
 			(start -2.7 1.75)
@@ -4377,7 +4377,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cb89fce6-db44-403c-9090-ecffa5bfa1bd")
+			(uuid "ad222574-7d7a-484e-a128-fcc7ec6f7a81")
 		)
 		(fp_line
 			(start 2.7 1.75)
@@ -4387,7 +4387,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7e2689fa-e470-4b78-b9f3-f493fe0f0327")
+			(uuid "7dcbefb3-10eb-4621-a17b-3d535077cbb6")
 		)
 		(fp_line
 			(start -2.7 -1.75)
@@ -4397,7 +4397,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9da3901a-a133-4ad9-a684-b2bbf0342993")
+			(uuid "7d458610-7d50-423c-a553-adf19bee14e7")
 		)
 		(fp_line
 			(start 2.7 -1.75)
@@ -4407,7 +4407,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "84c09ced-f78f-4d3a-aacc-e7f82059d41b")
+			(uuid "ccd7905b-0db7-4096-89a0-d344ee756142")
 		)
 		(fp_line
 			(start -0.7 1.52)
@@ -4417,7 +4417,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2b8398a4-1ecf-4b01-a484-a46c3dfc7592")
+			(uuid "055b67ac-b629-4734-a8fd-a7099d3dccde")
 		)
 		(fp_line
 			(start -0.7 -0.95)
@@ -4427,7 +4427,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "77e41c21-f204-4db2-90bb-6842a0bb56aa")
+			(uuid "738f5615-b095-4ae4-8931-8683e70efc3d")
 		)
 		(fp_line
 			(start -0.7 -0.95)
@@ -4437,7 +4437,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "746347a8-2cdf-458f-bd4e-6dc3a02fbe63")
+			(uuid "154b2362-a30b-4af1-9bb0-63098939f61e")
 		)
 		(fp_line
 			(start -0.15 -1.52)
@@ -4447,7 +4447,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b2a86df9-cad0-4e8a-afbd-f9bbbcad9e5c")
+			(uuid "d6a20f59-323d-44fd-8b14-db666d13b686")
 		)
 		(fp_line
 			(start 0.7 -1.52)
@@ -4457,7 +4457,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "89b10099-1f5c-451b-811d-c0563b845d0c")
+			(uuid "b3df97e9-73c9-4bed-a0c9-8e64b1d64bd8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -4471,12 +4471,12 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.5 -0.95 270)
+			(at 1.5 0 270)
 			(size 1.9 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 16 "Net-(U4-Vs-)")
-			(pinfunction "Vs-")
-			(pintype "input")
+			(net 4 "/CurrentSensing")
+			(pinfunction "Iout")
+			(pintype "output")
 			(uuid "1c477b13-8d45-4b19-a756-9008c483df09")
 		)
 		(pad "2" smd rect
@@ -4489,12 +4489,12 @@
 			(uuid "122a5a13-2ec8-433f-b612-24ecc24fe03f")
 		)
 		(pad "3" smd rect
-			(at 1.5 0 270)
+			(at -1.5 -0.95 270)
 			(size 1.9 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "/CurrentSensing")
-			(pinfunction "Iout")
-			(pintype "output")
+			(net 16 "Net-(U4-Vs-)")
+			(pinfunction "Vs-")
+			(pintype "input")
 			(uuid "e21ce974-d22c-4ce2-8cc7-378814d7ae8c")
 		)
 		(embedded_fonts no)

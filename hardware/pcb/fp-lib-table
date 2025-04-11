@@ -9,4 +9,5 @@
   (lib (name "0ZCG0075FF2C")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/0ZCG0075FF2C/footprints.pretty")(options "")(descr ""))
   (lib (name "SMF13A")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SMF13A/footprints.pretty")(options "")(descr ""))
   (lib (name "ESDA041-1JY")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ESDA041-1JY/footprints.pretty")(options "")(descr ""))
+  (lib (name "ZXCT1009F")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ZXCT1009F/footprints.pretty")(options "")(descr ""))
 )
