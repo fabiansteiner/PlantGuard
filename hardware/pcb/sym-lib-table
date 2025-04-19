@@ -160,4 +160,5 @@
   (lib (name "SMF13A")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SMF13A/SMF13A.kicad_sym")(options "")(descr ""))
   (lib (name "ESDA041-1JY")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ESDA041-1JY/2025-04-06_18-56-20.kicad_sym")(options "")(descr ""))
   (lib (name "ZXCT1009F")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ZXCT1009F/ZXCT1009F.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8837DSGR")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/DRV8837DSGR/DRV8837DSGR.kicad_sym")(options "")(descr ""))
 )

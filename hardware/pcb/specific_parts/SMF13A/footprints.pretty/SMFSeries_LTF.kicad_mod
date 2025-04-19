@@ -467,13 +467,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/specific_parts/SMF13A/SMF13A.STEP"
 		(offset
-			(xyz 0.4 0.4 -0.3)
+			(xyz -0.45 -0.4 -0.25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -180)
+			(xyz -0 -0 -0)
 		)
 	)
 )

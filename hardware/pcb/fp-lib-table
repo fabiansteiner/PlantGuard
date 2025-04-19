@@ -10,4 +10,5 @@
   (lib (name "SMF13A")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/SMF13A/footprints.pretty")(options "")(descr ""))
   (lib (name "ESDA041-1JY")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ESDA041-1JY/footprints.pretty")(options "")(descr ""))
   (lib (name "ZXCT1009F")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/ZXCT1009F/footprints.pretty")(options "")(descr ""))
+  (lib (name "DRV8837DSGR")(type "KiCad")(uri "${KIPRJMOD}/specific_parts/DRV8837DSGR/footprints.pretty")(options "")(descr ""))
 )
