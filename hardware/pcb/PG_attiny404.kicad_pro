@@ -59,24 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "invalid_outline|121666000|85344000|23cc3f10-f45b-40e7-85aa-8d28bee4ddc3|00000000-0000-0000-0000-000000000000",
-          "Aisler Custom MouseBites"
-        ],
-        [
-          "invalid_outline|132080000|139827000|afa0c643-0f84-40f0-a6eb-0d066fcf8bcc|00000000-0000-0000-0000-000000000000",
-          "Aisler Custom MouseBites"
-        ],
-        [
-          "invalid_outline|132080000|66929000|62e814f7-3eb6-43d7-afbf-dd0cddda9d7d|00000000-0000-0000-0000-000000000000",
-          "Aisler Custom MouseBites"
-        ],
-        [
-          "invalid_outline|145034000|85344000|8414e547-0952-4268-a62d-60b100782ea0|00000000-0000-0000-0000-000000000000",
-          "Aisler Custom MouseBites"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

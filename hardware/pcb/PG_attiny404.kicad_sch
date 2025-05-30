@@ -5367,6 +5367,12 @@
 		(uuid "f7218cb4-cc96-4945-967a-d0e37467de0c")
 	)
 	(junction
+		(at 210.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07d61d33-baef-4a58-8196-4c5f0c4683fc")
+	)
+	(junction
 		(at 228.6 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5443,6 +5449,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c2809e1-840c-491c-b801-c3105eca69b4")
+	)
+	(junction
+		(at 210.82 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c302e71-2f4d-4f08-ba25-5cdb39d9ba65")
 	)
 	(junction
 		(at 184.15 66.04)
@@ -5691,6 +5703,16 @@
 			(type default)
 		)
 		(uuid "2f0117bb-633a-4042-a742-af51d54fd0c3")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3192bc7d-afab-434b-9510-58b31fe172e0")
 	)
 	(wire
 		(pts
@@ -6241,16 +6263,6 @@
 			(type default)
 		)
 		(uuid "a7e34fa0-cc18-410d-82e4-7e4b4e27459f")
-	)
-	(wire
-		(pts
-			(xy 179.07 41.91) (xy 179.07 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91b8c98-0694-4c1f-954d-a125f71d2c81")
 	)
 	(wire
 		(pts
@@ -11445,15 +11457,15 @@
 		(fields_autoplaced yes)
 		(uuid "9268e324-316f-4abd-8fa9-ed39d5e05620")
 		(property "Reference" "R8"
-			(at 130.81 63.4195 90)
+			(at 130.81 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 130.81 65.8438 90)
+		(property "Value" "220k"
+			(at 130.81 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11499,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "https://www.digikey.at/de/products/detail/panasonic-electronic-components/ERJ-6GEYJ103V/83062"
+		(property "DK_Detail_Page" "https://www.digikey.at/de/products/detail/te-connectivity-passive-product/CRG0805F220K/2380869"
 			(at 130.81 68.58 0)
 			(effects
 				(font
@@ -11496,7 +11508,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-6GEYJ103V"
+		(property "MPN" "CRG0805F220K"
 			(at 130.81 68.58 0)
 			(effects
 				(font
@@ -11505,12 +11517,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C17414"
+		(property "JLC" "C17556"
 			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11523,6 +11536,80 @@
 			(project "PG_attiny404"
 				(path "/e68a78e5-8846-4666-9105-5fa8784d19c8"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 210.82 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "95abc8e3-1c8f-4279-91ce-7d3e855cb352")
+		(property "Reference" "J10"
+			(at 209.0928 36.1188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Cap +"
+			(at 211.4042 36.1188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b12052e-0df4-499e-9fcf-217b5bfe2050")
+		)
+		(instances
+			(project "PG_attiny404"
+				(path "/e68a78e5-8846-4666-9105-5fa8784d19c8"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11825,6 +11912,80 @@
 			(project "PG_attiny404"
 				(path "/e68a78e5-8846-4666-9105-5fa8784d19c8"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 205.74 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a58d321a-82b7-4c36-90d3-b2b29bca19b4")
+		(property "Reference" "J11"
+			(at 205.0288 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Cap -"
+			(at 205.0288 80.6958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25abfa89-77f3-4bdb-b6f3-9a21635c8c6a")
+		)
+		(instances
+			(project "PG_attiny404"
+				(path "/e68a78e5-8846-4666-9105-5fa8784d19c8"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -12176,6 +12337,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
